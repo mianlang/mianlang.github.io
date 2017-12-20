@@ -1,0 +1,93 @@
+* {
+  -webkit-background-size: border-box;
+  background-size: border-box;
+}
+
+html {
+  font-family: "微软雅黑", "Microsoft Yahei", sans-serif;
+}
+
+body {  
+  background: #c12127;
+}
+
+h1 {
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.sidebar {
+  float: left;
+  width: 20%;
+  position: fixed;
+}
+
+.main {
+  float: right;
+  width: 80%;
+}
+
+.pane-0 {
+  background: #235c7d;
+  height: 470px;
+  display: block;
+}
+
+.pane-1 {
+  background: #1d4e69;
+  color: #fff;
+  height: 420px;
+  display: block;
+}
+
+.pane-2 {
+  background: #273547;
+  height: 880px;
+  display: block;
+}
+
+.pane-3 {
+  background: #206f9c;
+  height: 880px;
+  display: block;
+}
+
+.pane-4 {
+  background: #fff;
+  height: 880px;
+  display: block;
+}
+
+.pane-5 {
+  background: #34495e;
+  height: 880px;
+  display: block;
+}
+
+.pane-6 {
+  background: #273547;
+  height: 880px;
+  display: block;
+}
+
+.pane-7 {
+  background: #f0f0f0;
+  height: 880px;
+  display: block;
+}
+
+.pane-8 {
+  background: #fff;
+  height: 880px;
+  display: block;
+}
+
+.footer {
+  background: #273547;
+  height: 480px;
+  display: block;
+}
+
+.con-wrap {
+  padding: 40px;
+}
