@@ -28,11 +28,21 @@ body {
   margin-bottom: 10px;
 }
 
+.h5 {
+  font-size: 13px;
+  font-weight: 100;
+  color: #f1cecf;
+  padding: 40px;
+}
+
 .pane-1 .h4, .pane-2 .h4 {
   width: 30%;
 }
 
-.h4.h4-b {
+.h4-b {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 100;
   display: block;
   width: 100%;
 }
@@ -57,13 +67,6 @@ body {
   width: 120px;
   border-radius: 120px;
   margin-top: 60px;
-}
-
-.h5 {
-  font-size: 13px;
-  font-weight: 100;
-  color: #f1cecf;
-  padding: 40px;
 }
 
 .nav>div {
