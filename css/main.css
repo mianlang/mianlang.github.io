@@ -13,16 +13,24 @@ body {
   letter-spacing: 1px;
 }
 
-.h4 {
-  display: inline-block;
-  width: 40%;
-  margin-bottom: 20px;
-  font-size: 13px;
-  font-weight: 100;
+.w3 {
+  width: 30%;
 }
 
-.h4-b {
-  display: block;
+.w4 {
+  width: 40%;
+}
+
+.w6 {
+  width: 60%;
+}
+
+.w0 {
+  width: 100%;
+}
+
+.h4 {
+  display: inline-block;
   margin-bottom: 20px;
   font-size: 13px;
   font-weight: 100;
@@ -40,10 +48,6 @@ body {
   font-weight: 100;
   color: #f1cecf;
   padding: 40px;
-}
-
-.pane-1 .h4, .pane-2 .h4 {
-  width: 30%;
 }
 
 .sidebar {
