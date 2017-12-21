@@ -1,6 +1,15 @@
 ;
 (function() {
   window.location.hash = "#start";
+  var fade1 = $('#fade1');
+  $('#fade1').click(function() {
+    // fade1.hide();
+    $('#fade1').text('Yo~');
+  });
+  var fade2 = $('#fade2');
+  fade2.click(function() {
+    fade2.text('Yo~');
+  });
   $('#btn_basic').click(function() {
     window.location.hash = "#h_basic";
   });
