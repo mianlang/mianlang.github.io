@@ -13,34 +13,38 @@
 </head>
 
 <body>
-  <div class="back"></div>
-  <div class="sidebar">
-    <label id="menu-toggle" for="menu-checkbox">菜单</label>
+  <div id="start" class="sidebar">
+    <label id="menu-toggle" for="menu-checkbox">
+
+        <div id="back" class="back">
+          <img src="img/cat.png" alt="">
+        </div>
+      </label>
     <input id="menu-checkbox" type="checkbox">
     <div class="header">
       <img src="img/zp.png" width="120px" alt="">
-      <h5 class="intro">前端路漫漫，小白当自勉</h5>
+      <div class="h5">前端路漫漫，小白当自勉</div>
     </div>
     <div class="nav">
-      <div>
+      <div id="btn_basic">
         <h3 href="#" class="item">基本信息</h3>
       </div>
-      <div>
+      <div id="btn_edu">
         <h3 href="#" class="item">教育经历</h3>
       </div>
-      <div>
+      <div id="btn_work">
         <h3 href="#" class="item">前端经历</h3>
       </div>
-      <div>
+      <div id="btn_tree">
         <h3 href="#" class="item"># 技能树</h3>
       </div>
-      <div>
+      <div id="btn_contact">
         <h3 href="#" class="item">即刻联系</h3>
       </div>
     </div>
   </div>
   <div class="main">
-    <div class="pane-0">
+    <div id="h_basic" class="pane-0">
       <div class="title">
         <h1>基本信息</h1>
       </div>
@@ -53,9 +57,8 @@
         <div class="h4">手机号码：15700077520</div>
         <div class="h4">电子邮箱：mianlang@foxmail.com</div>
       </div>
-
     </div>
-    <div class="pane-1">
+    <div id="h_edu" class="pane-1">
       <div class="title">
         <h1>教育经历</h1>
       </div>
@@ -67,7 +70,7 @@
         <div class="h4 h4-b">－通过大学英语六级考试</div>
       </div>
     </div>
-    <div class="pane-2">
+    <div id="h_work" class="pane-2">
       <div class="title">
         <h1>前端工作经历</h1>
       </div>
@@ -80,7 +83,7 @@
         <div class="h4">为社团开发微信小程序「ZJU摩登舞队秋纳」</div>
       </div>
     </div>
-    <div class="pane-3">
+    <div id="h_tree" class="pane-3">
       <div class="title">
         <h1>拥有技能</h1>
       </div>
@@ -150,9 +153,9 @@
         <div class="content">马不停蹄扩充技能树中……</div>
       </div>
     </div>
-    <div class="pane-4">
+    <div id="h_contact" class="pane-4">
       <div class="title">
-        <h1>联系我</h1>
+        <h1>请联系我</h1>
       </div>
       <div class="con-wrap">
         <div class="h4 h4-b">手机号码：15700077520</div>
@@ -160,12 +163,13 @@
       </div>
     </div>
     <div class="footer">
-
+      <div class="h5">－期待加入您的团队－</div>
     </div>
   </div>
 
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 
 </html>

@@ -52,10 +52,11 @@ body {
   margin-top: 60px;
 }
 
-.header h5 {
+.h5 {
+  font-size: 13px;
   font-weight: 100;
   color: #f1cecf;
-  padding: 20px;
+  padding: 40px;
 }
 
 .nav>div {
@@ -147,6 +148,7 @@ body {
 }
 
 .back {
+  z-index: 99;
   display: none;
   position: fixed;
   bottom: 15%;
@@ -198,10 +200,12 @@ body {
 
 .board .title {
   margin-bottom: 60px;
+  padding-left: 15px;
 }
+
 .wrapper {
-  padding-left: 40px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
@@ -212,4 +216,18 @@ body {
 .content {
   margin-top: 10px;
   color: #6d7986;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.back img {
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 30px;
+  height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
