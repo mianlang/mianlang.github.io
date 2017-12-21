@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.nav>div {
+  height: 40px;
+}
+
 .title {
   padding-top: 20px;
   margin-bottom: 40px;
@@ -29,7 +33,7 @@
 .sidebar .nav {
   display: none;
   text-align: center;
-  margin-bottom: 170px;
+  margin-bottom: 270px;
 }
 
 #menu-checkbox:checked ~ .nav {

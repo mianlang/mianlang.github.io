@@ -127,12 +127,6 @@ body {
   color: #373d48;
 }
 
-.footer {
-  background: #273547;
-  height: 140px;
-  display: block;
-}
-
 .title {
   padding-top: 40px;
   padding-left: 40px;
@@ -227,7 +221,10 @@ body {
   height: 40px;
 }
 
+
 .footer {
+  background: #273547;
+  height: 100px;
   display: flex;
   justify-content: center;
 }
