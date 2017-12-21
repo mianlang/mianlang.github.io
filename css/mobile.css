@@ -46,16 +46,29 @@
 
 
 .pane-0 {
-  height: 460px;
+  padding: 0;
+  padding-bottom: 40px;
 }
-
-.back {
-  display: block;
+.pane-1 {
+  padding: 0;
+  padding-bottom: 40px;
+}
+.pane-2 {
+  padding: 0;
+  padding-bottom: 40px;
 }
 
 .pane-3 {
-  background: #f0f0f0;
-  height: 1580px;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.pane-4 {
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.back {
   display: block;
 }
 

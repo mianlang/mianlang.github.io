@@ -17,8 +17,15 @@ body {
   display: inline-block;
   width: 40%;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 100;
+}
+
+.h44 {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
 .pane-1 .h4, .pane-2 .h4 {
