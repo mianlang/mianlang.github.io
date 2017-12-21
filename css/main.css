@@ -94,32 +94,32 @@ body {
 
 .pane-0 {
   background: #235c7d;
-  height: 400px;
+  padding: 40px;
   display: block;
 }
 
 .pane-1 {
   background: #1d4e69;
   color: #fff;
-  height: 360px;
+  padding: 40px;
   display: block;
 }
 
 .pane-2 {
   background: #273547;
-  height: 380px;
+  padding: 40px;
   display: block;
 }
 
 .pane-3 {
   background: #f0f0f0;
-  height: 680px;
+  padding: 40px;
   display: block;
 }
 
 .pane-4 {
   background: #206f9c;
-  height: 280px;
+  padding: 40px;
   display: block;
 }
 
@@ -128,7 +128,6 @@ body {
 }
 
 .title {
-  padding-top: 40px;
   padding-left: 40px;
   margin-bottom: 40px;
 }
