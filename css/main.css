@@ -21,8 +21,12 @@ body {
   width: 40%;
 }
 
+.w5 {
+  width: 50%;
+}
+
 .w6 {
-  width: 60%;
+  width: 59%;
 }
 
 .w0 {
@@ -149,7 +153,8 @@ body {
   padding-left: 80px;
 }
 
-#menu-checkbox, #menu-toggle {
+#menu-checkbox,
+#menu-toggle {
   display: none;
 }
 
@@ -232,7 +237,6 @@ body {
   width: 30px;
   height: 40px;
 }
-
 
 .footer {
   background: #273547;
