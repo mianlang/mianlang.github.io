@@ -4,13 +4,14 @@
 }
 
 html {
-  font-family: "微软雅黑", "Microsoft Yahei", sans-serif;
+  font-family: '微软雅黑', 'Microsoft Yahei', sans-serif;
 }
 
 body {
   background: #c12127;
   color: #fff;
   letter-spacing: 1px;
+  word-break: keep-all;
 }
 
 .w3 {
@@ -36,22 +37,15 @@ body {
 .h4 {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 13px;
-  font-weight: 100;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .h44 {
   display: inline-block;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   margin-bottom: 10px;
-}
-
-.h5 {
-  font-size: 13px;
-  font-weight: 100;
-  color: #f1cecf;
-  padding: 40px;
 }
 
 .sidebar {
@@ -73,10 +67,10 @@ body {
   height: 120px;
   width: 120px;
   border-radius: 120px;
-  margin-top: 60px;
+  margin: 120px 0 48px;
 }
 
-.nav>div {
+.nav > div {
   height: 60px;
   display: flex;
   display: -webkit-flex;
@@ -91,14 +85,18 @@ body {
 }
 
 .nav div:hover {
-  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
   transition: all 300ms;
 }
 
+.nav div:active {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .nav h3:hover {
-  color: #fff;
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
   transition: all 300ms;
@@ -110,7 +108,7 @@ body {
 }
 
 .pane-0 {
-  background: #235c7d;
+  background: #206f9c;
   padding: 40px;
   display: block;
 }
@@ -123,7 +121,7 @@ body {
 }
 
 .pane-2 {
-  background: #273547;
+  background: #1d4e69;
   padding: 40px;
   display: block;
 }
@@ -159,16 +157,7 @@ body {
 }
 
 .back {
-  z-index: 99;
   display: none;
-  position: fixed;
-  bottom: 15%;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, .6);
 }
 
 .container {
@@ -191,8 +180,8 @@ body {
   position: relative;
   border: 1px solid #ccc;
   display: inline-block;
-  width: 30%;
-  height: 300px;
+  width: 31%;
+  height: 320px;
   border-radius: 10px;
   background: #fff;
   margin-bottom: 30px;
@@ -221,13 +210,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: #6d7986;
+  color: #5d6976;
 }
 
 .content {
   margin-top: 10px;
-  color: #6d7986;
-  font-size: 13px;
+  color: #5d6976;
+  font-size: 15px;
   font-weight: 100;
 }
 
@@ -238,9 +227,23 @@ body {
   height: 40px;
 }
 
+a.download {
+  cursor: pointer;
+  color: #373d48;
+  text-decoration: none;
+}
+
 .footer {
-  background: #273547;
-  height: 100px;
+  background: #f0f0f0;
+  font-size: 13px;
+  font-weight: 100;
+  color: #5d6976;
+  height: 64px;
   display: flex;
   justify-content: center;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
 }

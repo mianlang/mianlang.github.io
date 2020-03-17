@@ -1,33 +1,29 @@
-;
-(function() {
-  window.location.hash = "#start";
-  var fade1 = $('#fade1');
-  $('#fade1').click(function() {
-    // fade1.hide();
-    $('#fade1').text('Yo~');
-  });
-  var fade2 = $('#fade2');
-  fade2.click(function() {
-    fade2.text('Yo~');
-  });
+;(function() {
+  window.location.hash = '#start'
   $('#btn_basic').click(function() {
-    window.location.hash = "#h_basic";
-  });
+    window.location.hash = '#basic'
+    $('.back').show()
+  })
   $('#btn_edu').click(function() {
-    window.location.hash = "#h_edu";
-  });
+    window.location.hash = '#education'
+    $('.back').show()
+  })
   $('#btn_work').click(function() {
-    window.location.hash = "#h_work";
-  });
+    window.location.hash = '#work-experience'
+    $('.back').show()
+  })
   $('#btn_tree').click(function() {
-    window.location.hash = "#h_tree";
-  });
+    window.location.hash = '#skills'
+    $('.back').show()
+  })
   $('#btn_contact').click(function() {
-    window.location.hash = "#h_contact";
-  });
+    window.location.hash = '#contact-me'
+    $('.back').show()
+  })
   $('.back').click(function() {
-    window.location.hash = "#back";
-    window.location.hash = "#start";
-    document.getElementById("menu-checkbox").checked=false;
-  });
-})();
+    window.location.hash = '#back'
+    window.location.hash = '#start'
+    document.getElementById('menu-checkbox').checked = false
+    $('.back').hide()
+  })
+})()

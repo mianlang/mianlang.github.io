@@ -1,166 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#c12127" />
+    <link rel="icon" href="img/tx.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="(max-width: 999px)" href="css/mobile.css" />
+    <title>绵狼的前端空间</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="theme-color" content="#c12127">
-  <link rel="icon" href="img/tx.png">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" media="(max-width: 999px)" href="css/mobile.css">
-  <title>绵狼的前端空间</title>
-</head>
-
-<body>
-  <div id="start" class="sidebar">
-    <label id="menu-toggle" for="menu-checkbox">
-      <div id="back" class="back">
-        <img src="img/cat.png" alt="">
-      </div>
-    </label>
-    <input id="menu-checkbox" type="checkbox">
-    <div class="header">
-      <img src="img/zp.png" width="120px" alt="">
-      <div id="fade1" class="h5">前端路漫漫，小白当自勉</div>
-    </div>
-    <div class="nav">
-      <div id="btn_basic">
-        <h3 href="#" class="item">基本信息</h3>
-      </div>
-      <div id="btn_edu">
-        <h3 href="#" class="item">教育经历</h3>
-      </div>
-      <div id="btn_work">
-        <h3 href="#" class="item">实习经历</h3>
-      </div>
-      <div id="btn_tree">
-        <h3 href="#" class="item">拥有技能</h3>
-      </div>
-      <div id="btn_contact">
-        <h3 href="#" class="item">请联系我</h3>
-      </div>
-    </div>
-  </div>
-  <div class="main">
-    <div id="h_basic" class="pane-0">
-      <div class="title">
-        <h1>基本信息</h1>
-      </div>
-      <div class="con-wrap">
-        <div class="h4 w4">姓　　名：高源</div>
-        <div class="h4 w4">姓　　别：男</div>
-        <div class="h4 w4">出生年月：1995.4</div>
-        <div class="h4 w4">求职意向：前端工程师</div>
-        <div class="h4 w4">工作城市：杭州，上海，深圳，北京</div>
-        <div class="h4 w4">手机号码：15700077520</div>
-        <div class="h4 w4">电子邮箱：mianlang@foxmail.com</div>
-      </div>
-    </div>
-    <div id="h_edu" class="pane-1">
-      <div class="title">
-        <h1>教育经历</h1>
-      </div>
-      <div class="con-wrap">
-        <div class="h4 w4">浙江大学本科 2019 届</div>
-        <div class="h4 w4">光电信息科学与工程专业（信息学竞赛保送）</div>
-        <div class="h4 w0">－数学建模竞赛一等奖</div>
-        <div class="h4 w0">－大学英语六级</div>
-      </div>
-    </div>
-    <div id="h_work" class="pane-2">
-      <div class="title">
-        <h1>实习经历</h1>
-      </div>
-      <div class="con-wrap">
-        <div class="h4 w4">2018.8 - 2018.10</div>
-        <div class="h4 w4">杭州挖财互联网金融服务有限公司</div>
-        <div class="h4 w0">－前端工程师，Node.js 中后台应用</div>
-        <div class="h4 w0"></div>
-        <div class="h4 w4">2017.12 - 2018.7</div>
-        <div class="h4 w4">杭州趣链科技有限公司</div>
-        <div class="h4 w0">－前端工程师，React 单页应用</div>
-        <div class="h4 w0"></div>
-        <div class="h4 w4">2017.11 - 2017.12</div>
-        <div class="h4 w4">浙江江木科技有限公司</div>
-        <div class="h4 w0">－前端工程师，微信小程序</div>
-      </div>
-    </div>
-    <div id="h_tree" class="pane-3">
-      <div class="title">
-        <h1>拥有技能</h1>
-      </div>
-      <div class="container">
-        <div class="board-wrap">
-          <div class="board">
-            <div class="title">
-              <h1>HTML+CSS</h1>
-            </div>
-            <div class="wrapper">
-              <div class="h44">div+CSS 切图</div>
-              <div class="h44">√√√</div>
-            </div>
-            <div class="wrapper">
-              <div class="h44">命名规范</div>
-              <div class="h44">√√√</div>
-            </div>
-          </div>
-          <div class="board board2">
-            <div class="title">
-              <h1>JS</h1>
-            </div>
-            <div class="wrapper">
-              <div class="h44">红宝书</div>
-              <div class="h44">√√</div>
-            </div>
-            <div class="wrapper">
-              <div class="h44">ES6</div>
-              <div class="h44">√√</div>
-            </div>
-          </div>
-          <div class="board board3">
-            <div class="title">
-              <h1>and more</h1>
-            </div>
-            <div class="wrapper">
-              <div class="h44">React</div>
-              <div class="h44">√√</div>
-            </div>
-            <div class="wrapper">
-              <div class="h44">webpack</div>
-              <div class="h44">√√√</div>
-            </div>
-            <div class="wrapper">
-              <div class="h44">.git 协作</div>
-              <div class="h44">√√√</div>
-            </div>
-            <div class="wrapper">
-              <div class="h44">团队沟通</div>
-              <div class="h44">√√√√</div>
-            </div>
-          </div>
+  <body>
+    <div id="start" class="sidebar">
+      <label id="menu-toggle" for="menu-checkbox">
+        <div id="back" class="back">
+          <img src="img/cat.png" alt="导航" />
         </div>
-        <div class="content">马不停蹄补充基础拓展技能树中……</div>
+      </label>
+      <input id="menu-checkbox" type="checkbox" />
+      <div class="header">
+        <img src="img/zp.png" width="120px" alt="个人照片" />
+      </div>
+      <div class="nav">
+        <div id="btn_basic">
+          <h3 href="#" class="item">基本信息</h3>
+        </div>
+        <div id="btn_edu">
+          <h3 href="#" class="item">教育经历</h3>
+        </div>
+        <div id="btn_work">
+          <h3 href="#" class="item">工作经历</h3>
+        </div>
+        <div id="btn_tree">
+          <h3 href="#" class="item">拥有技能</h3>
+        </div>
+        <div id="btn_contact">
+          <h3 href="#" class="item">联系方式</h3>
+        </div>
       </div>
     </div>
-    <div id="h_contact" class="pane-4">
-      <div class="title">
-        <h1>请联系我</h1>
+    <div class="main">
+      <div id="basic" class="pane-0">
+        <div class="title">
+          <h1>基本信息</h1>
+        </div>
+        <div class="con-wrap">
+          <div class="h4 w4">姓　　名：高源</div>
+          <div class="h4 w4">姓　　别：男</div>
+          <div class="h4 w4">出生年月：1995.4</div>
+          <div class="h4 w4">求职意向：前端工程师</div>
+          <div class="h4 w4">工作城市：杭州，上海</div>
+          <div class="h4 w4">手机微信：15700077520</div>
+          <div class="h4 w4">电子邮箱：mianlang@foxmail.com</div>
+        </div>
       </div>
-      <div class="con-wrap">
-        <div class="h4 w0">手机微信：15700077520</div>
-        <div class="h4 w0">电子邮箱：mianlang@foxmail.com</div>
+      <div id="education" class="pane-1">
+        <div class="title">
+          <h1>教育经历</h1>
+        </div>
+        <div class="con-wrap">
+          <div class="flex">
+            <div class="h4 w4">浙江大学本科 2019 届</div>
+            <div class="h4 w4">光电信息科学与工程（信息学竞赛保送）</div>
+          </div>
+          <div class="h4 w0">－数学建模竞赛一等奖</div>
+          <div class="h4 w0">－大学英语六级</div>
+        </div>
+      </div>
+      <div id="skills" class="pane-3">
+        <div class="title">
+          <h1>拥有技能</h1>
+        </div>
+        <div class="container">
+          <div class="board-wrap">
+            <div class="board">
+              <div class="title">
+                <h1>技术开发</h1>
+              </div>
+              <div class="wrapper">
+                <div class="h44">React + GraphQL</div>
+                <div class="h44">√√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">页面逻辑，组件维护</div>
+                <div class="h44">√√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">nest.js</div>
+                <div class="h44">√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">Taro 小程序</div>
+                <div class="h44">√√</div>
+              </div>
+            </div>
+            <div class="board board2">
+              <div class="title">
+                <h1>项目流程</h1>
+              </div>
+              <div class="wrapper">
+                <div class="h44">Pre IPM，IPM 发言踊跃</div>
+                <div class="h44">√√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">按期交付提测</div>
+                <div class="h44">√√√</div>
+              </div>
+            </div>
+            <div class="board board3">
+              <div class="title">
+                <h1>亮点</h1>
+              </div>
+              <div class="wrapper">
+                <div class="h44">Phabricator + Arc 善用工具</div>
+                <div class="h44">√√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">注重代码质量</div>
+                <div class="h44">√√√</div>
+              </div>
+              <div class="wrapper">
+                <div class="h44">注重用户体验</div>
+                <div class="h44">√√√</div>
+              </div>
+            </div>
+          </div>
+          <div class="content">根据工作需要随时拓展技能树</div>
+        </div>
+      </div>
+      <div id="work-experience" class="pane-2">
+        <div class="title">
+          <h1>工作经历</h1>
+        </div>
+        <div class="con-wrap">
+          <div class="h4 w4">2019.9 - 2020.3</div>
+          <div class="h4 w4">帷幄匠心科技（杭州）有限公司</div>
+          <div class="h4 w0">－前端工程师，React + GraphQL + nest.js</div>
+        </div>
+        <div class="title">
+          <h1>实习</h1>
+        </div>
+        <div class="con-wrap">
+          <div class="h4 w4">2018.8 - 2018.10</div>
+          <div class="h4 w4">杭州挖财互联网金融服务有限公司</div>
+          <div class="h4 w0">－Node.js 中后台</div>
+          <div class="h4 w0"></div>
+          <div class="h4 w4">2017.12 - 2018.7</div>
+          <div class="h4 w4">杭州趣链科技有限公司</div>
+          <div class="h4 w0">－React 单页应用</div>
+          <div class="h4 w0"></div>
+          <div class="h4 w4">2017.11 - 2017.12</div>
+          <div class="h4 w4">浙江江木科技有限公司</div>
+          <div class="h4 w0">－微信小程序</div>
+        </div>
+      </div>
+      <div id="contact-me" class="pane-4">
+        <div class="title">
+          <h1>联系方式</h1>
+        </div>
+        <div class="con-wrap">
+          <div class="h4 w0">手机微信：15700077520</div>
+          <div class="h4 w0">电子邮箱：mianlang@foxmail.com</div>
+        </div>
+      </div>
+      <div class="pane-3">
+        <div class="title">
+          <h1>
+            <a
+              class="download"
+              target="_blank"
+              href="https://my-cv.oss-cn-hangzhou.aliyuncs.com/%E9%AB%98%E6%BA%90%E7%AE%80%E5%8E%86-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf"
+              >点击下载简历</a
+            >
+          </h1>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="fade2" class="h5">- 更新于 2020.3.18 -</div>
       </div>
     </div>
-    <div class="footer">
-      <div id="fade2" class="h5">－绵狼－</div>
-    </div>
-  </div>
 
-  <script src="js/jquery.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
