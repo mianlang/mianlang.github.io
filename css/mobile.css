@@ -1,6 +1,15 @@
 .h4 {
   width: 100% !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 16px !important;
+}
+
+.h5 {
+  width: 100% !important;
+  margin-bottom: 16px !important;
+}
+
+.indent-neg {
+  margin-left: -16px;
 }
 
 .nav > div {
